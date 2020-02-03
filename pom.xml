@@ -77,16 +77,16 @@
 	</dependencies>
 
 	<distributionManagement>
+    		<repository>
+        		<id>central</id>
+        		<name>969f09a64a0a-releases</name>
+        		<url>http://artifactory.payincloud.com/artifactory/libs-release</url>
+    		</repository>
 		<snapshotRepository>
-			<id>snapshots</id>
-			<name>56078d186cc5-snapshots</name>
-			<url>http://artifactory.payincloud.com/artifactory/libs-snapshot-local</url>
-		</snapshotRepository>
-		<repository>
-			<id>central</id>
-			<name>56078d186cc5-releases</name>
-			<url>http://artifactory.payincloud.com/artifactory/libs-release-local</url>
-		</repository>
+        		<id>snapshots</id>
+        		<name>969f09a64a0a-snapshots</name>
+        		<url>http://artifactory.payincloud.com/artifactory/libs-snapshot</url>
+    		</snapshotRepository>
 	</distributionManagement>
 	
 	<build>
