@@ -75,7 +75,14 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
 	<distributionManagement>
     		<repository>
         		<id>central</id>
@@ -88,15 +95,6 @@
         		<url>http://artifactory.payincloud.com/artifactory/libs-snapshot</url>
     		</snapshotRepository>
 	</distributionManagement>
-	
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-		</plugins>
-	</build>
 	
 
 </project>
