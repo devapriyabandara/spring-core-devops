@@ -84,16 +84,16 @@
 		</plugins>
 	</build>
 	<distributionManagement>
-    		<repository>
-        		<id>central</id>
-        		<name>969f09a64a0a-releases</name>
-        		<url>http://artifactory.payincloud.com/artifactory/libs-release</url>
-    		</repository>
+		<repository>
+			<id>central</id>
+			<name>aeff9043db26-releases</name>
+			<url>http://artifactory.payincloud.com/artifactory/libs-release</url>
+		</repository>
 		<snapshotRepository>
-        		<id>snapshots</id>
-        		<name>969f09a64a0a-snapshots</name>
-        		<url>http://artifactory.payincloud.com/artifactory/libs-snapshot</url>
-    		</snapshotRepository>
+			<id>snapshots</id>
+			<name>aeff9043db26-snapshots</name>
+			<url>http://artifactory.payincloud.com/artifactory/libs-snapshot</url>
+		</snapshotRepository>
 	</distributionManagement>
 	
 
