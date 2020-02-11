@@ -5,7 +5,7 @@
 
 	<groupId>guru.springframework</groupId>
 	<artifactId>spring-core-devops</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.2-RELEASE</version>
 	<packaging>jar</packaging>
 
 	<name>Spring Core DevOps</name>
@@ -58,6 +58,7 @@
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 			<scope>runtime</scope>
+			<version>8.0.13</version>
 		</dependency>
 
 		<dependency>
@@ -96,13 +97,13 @@
 	<distributionManagement>
 		<repository>
 			<id>central</id>
-			<name>49ec81db94c2-releases</name>
-			<url>http://artifactory.springframework.guru/artifactory/libs-release-local</url>
+			<name>aeff9043db26-releases</name>
+			<url>http://artifactory.payincloud.com/artifactory/libs-release</url>
 		</repository>
 		<snapshotRepository>
 			<id>snapshots</id>
-			<name>49ec81db94c2-snapshots</name>
-			<url>http://artifactory.springframework.guru/artifactory/libs-snapshot-local</url>
+			<name>aeff9043db26-snapshots</name>
+			<url>http://artifactory.payincloud.com/artifactory/libs-snapshot</url>
 		</snapshotRepository>
 	</distributionManagement>
 </project>
